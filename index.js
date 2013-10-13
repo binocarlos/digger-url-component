@@ -4,13 +4,15 @@ window.$diggercomponents.directive('myTing', function(){
 	return {
     restrict:'EA',
     template:template,
+    replace:true,
     controller:function($scope){
 
-    	/*
 			function setname(name){
 				$scope.warehouseurl = $digger.config.protocol + '://' + $digger.config.host + '/' + $digger.user.username + '/' + name;
 				$scope.apiurl = $digger.config.diggerurl + '/' + $digger.user.username + '/' + name;
 			}
+
+			$scope.model = $scope.container.get(0);
 
 			$scope.$watch('model.name', function(name){
 
@@ -30,16 +32,7 @@ window.$diggercomponents.directive('myTing', function(){
 				}
 				
 			})
-			*/
-
-			console.log('-------------------------------------------');
-			console.log('controller');
-
 			
-    },
-    link:function(scope,element,attrs){
-      console.log('-------------------------------------------');
-      console.log('directive created');
     }
   }
 })
