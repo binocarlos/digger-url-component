@@ -14,7 +14,8 @@
     "styles.css"
   ],
   "scripts": [
-    "index.js"
+    "index.js",
+    "template.js"
   ],
   "remotes": []
 }

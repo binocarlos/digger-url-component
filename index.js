@@ -3,7 +3,7 @@ var template = require('./template');
 window.$diggercomponents.directive('myTing', function(){
 	return {
     restrict:'EA',
-    templateUrl:template,
+    template:template,
     controller:function($scope){
 
     	/*
