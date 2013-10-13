@@ -1,0 +1,20 @@
+{
+  "name": "digger-url-component",
+  "repo": "binocarlos/digger-url-component",
+  "description": "The first digger component to get the loader working (it displays the warehouse url of a container)",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "styles": [
+    "styles.css"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
