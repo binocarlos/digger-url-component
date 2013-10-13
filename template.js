@@ -1,1 +1,1 @@
-module.exports = '<div>\n	<div>\n		<div class="col-sm-12">\n			{{ warehouseurl }}<br />\n			{{ apiurl }}<br />\n		</div>\n	</div>\n</div>';
+module.exports = '<div>\n	<div>\n		<div class="col-sm-12">\n			<a ng-href="{{ warehouseurl}}">{{ warehouseurl }}</a>\n		</div>\n	</div>\n</div>';
