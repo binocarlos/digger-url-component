@@ -1,15 +1,12 @@
 var template = require('./template');
 
 window.$diggercomponents.directive('myTing', function(){
-
-  console.log('testDir is now getting initialized');
-  var counter = 0;
-  
-  return {
+	return {
     restrict:'EA',
     templateUrl:template,
     controller:function($scope){
 
+    	/*
 			function setname(name){
 				$scope.warehouseurl = $digger.config.protocol + '://' + $digger.config.host + '/' + $digger.user.username + '/' + name;
 				$scope.apiurl = $digger.config.diggerurl + '/' + $digger.user.username + '/' + name;
@@ -33,13 +30,18 @@ window.$diggercomponents.directive('myTing', function(){
 				}
 				
 			})
+			*/
+
+			console.log('-------------------------------------------');
+			console.log('controller');
+
 			
     },
     link:function(scope,element,attrs){
-      scope.count = ++counter;
-      console.log('a new testDir directive has been created and linked');
+      console.log('-------------------------------------------');
+      console.log('directive created');
     }
   }
-});
+})
 
 module.exports = '<my-ting />';
