@@ -1,6 +1,6 @@
 var template = require('./template');
 
-window.$diggercomponents.directive('myTing', function(){
+$digger.directive('urlComponent', function(){
 	return {
     restrict:'EA',
     template:template,
@@ -37,4 +37,4 @@ window.$diggercomponents.directive('myTing', function(){
   }
 })
 
-module.exports = '<my-ting />';
+module.exports = '<url-component />';
